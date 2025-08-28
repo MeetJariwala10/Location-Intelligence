@@ -1,0 +1,11 @@
+langchain-mcp-adapters
+langchain-google-genai
+langgraph
+langchain
+langchain-community
+google-search-results
+googlemaps
+streamlit
+requests
+python-dotenv
+mcp
