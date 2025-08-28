@@ -92,14 +92,30 @@ python client.py
 The demo video is included in the repository:
 - `docs/demo/project_demo.mp4`
 
-<video controls width="720">
-  <source src="docs/demo/project_demo.mp4" type="video/mp4" />
-  Your browser does not support the video tag. You can download/watch it directly:
-  <a href="docs/demo/project_demo.mp4">docs/demo/project_demo.mp4</a>
-  
-</video>
+📹 **Watch the demo video** by clicking on the file above or [download it here](docs/demo/project_demo.mp4)
 
-You can open it locally or upload it with the README to your repo hosting. Git platforms usually show a download/play link on the file page.
+> **Note:** GitHub doesn't support video playback in README files. You can download the video file to watch it locally, or view it directly on GitHub by clicking the file link above.
+
+### Screenshots
+
+Here are some screenshots showcasing the project in action:
+
+#### Comparision of our solution with ChatGPT
+![Example 1](docs/screenshots/example_1.png)
+
+#### Example 1: Basic Query Response
+![Example 1 Response](docs/screenshots/example_1_response.png)
+
+#### Example 1: Detailed Analysis
+![Example 1 Detailed Response](docs/screenshots/example_1_response_2.png)
+
+#### Example 2: Location Analysis
+![Example 2](docs/screenshots/example_2.png)
+
+#### Example 3: Comprehensive Results
+![Example 3](docs/screenshots/example_3.png)
+
+These screenshots demonstrate the conversational AI interface and the types of geospatial analysis results you can expect from the system.
 
 ### How It Works (High level)
 - `server.py` registers multiple MCP tools (web search, geocode, air quality, weather, places, distance matrix, geolocation, area insights) built on Google Maps Platform and SerpAPI.
